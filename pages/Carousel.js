@@ -62,7 +62,7 @@ const Carousel = () => {
             <p>
               <span className="timer-item font-thin text-[40px]  lg:text-[60px] ">{days}</span>
             </p>
-            <p className="lg:text-[25px] font-thin tracking-[3px]">days</p>
+            <p className="lg:text-[25px] text-[14px] font-thin tracking-[3px]">days</p>
           </div>
           <div className="mx-3">
             <p>
@@ -70,7 +70,7 @@ const Carousel = () => {
                 {hours}
               </span>
             </p>
-            <p className="lg:text-[25px] font-thin tracking-[3px]">hours</p>
+            <p className="lg:text-[25px] text-[14px] font-thin tracking-[3px]">hours</p>
           </div>
           <div className="mx-3">
             <p>
@@ -78,7 +78,7 @@ const Carousel = () => {
                 {minutes}
               </span>
             </p>
-            <p  className="lg:text-[25px] tracking-[3px] font-thin">minutes</p>
+            <p  className="lg:text-[25px] text-[14px] tracking-[3px] font-thin">minutes</p>
           </div>
           <div className="mx-3">
             <p>
@@ -86,7 +86,7 @@ const Carousel = () => {
                 {seconds}
               </span>
             </p>
-            <p className="lg:text-[25px] font-thin tracking-[3px]">seconds</p>
+            <p className="lg:text-[25px] text-[14px]  font-thin tracking-[3px]">seconds</p>
           </div>
         </div>
       </div>
@@ -162,7 +162,7 @@ const Carousel = () => {
         <img className=" w-[35.95px]" src="../assists/5.png" alt=""/>
       </div>
       <div className="mt-[18px]">
-        <p className=" normal-case  lg: text-2xl">Sotheby's</p>
+        <p className=" normal-case  lg:text-2xl">Sotheby's</p>
         <p className=" text-[10px] " >international reality</p>
       </div>
       </div>
